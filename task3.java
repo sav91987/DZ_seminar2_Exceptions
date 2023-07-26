@@ -1,21 +1,18 @@
 import java.util.Scanner;
 
 class NumberOutOfRangeException extends RuntimeException {
-
     public NumberOutOfRangeException(String message) {
         super(message);
     }
 }
 
 class NumberSumException extends RuntimeException {
-
     public NumberSumException(String message) {
         super(message);
     }
 }
 
 class DivisionByZeroException extends RuntimeException {
-
     public DivisionByZeroException(String message) {
         super(message);
     }
